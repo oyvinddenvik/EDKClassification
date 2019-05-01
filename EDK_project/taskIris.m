@@ -143,7 +143,6 @@ elseif numberOffeatures == 1
                   3*ones(size(x_feature3,1),1) ]; 
 end
 
-%% Choose last or first for training set and test set
 
 trainingSamples=30;
 testSamples=size(x_feature1,1)-trainingSamples;
