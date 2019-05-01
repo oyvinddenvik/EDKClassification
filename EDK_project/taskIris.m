@@ -92,7 +92,10 @@ subplot(2,2,4)
 histogram([x_feature1(:,4),x_feature2(:,4), x_feature3(:,4)],15)
 xlim([0 8])
 
-%% Choose number of features
+%% Training and testing data
+
+
+% Choose number of features and the use of last 30 or first 30 samples in the training set
 
 numberOffeatures=4;
 useLastTraining=1;
